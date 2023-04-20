@@ -1,0 +1,14 @@
+D:\AntraAprilTrainning\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+D:\AntraAprilTrainning\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+D:\AntraAprilTrainning\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+D:\AntraAprilTrainning\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+D:\AntraAprilTrainning\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+D:\AntraAprilTrainning\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\AntraAprilTrainning\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\AntraAprilTrainning\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+D:\AntraAprilTrainning\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\AntraAprilTrainning\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+D:\AntraAprilTrainning\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+D:\AntraAprilTrainning\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+D:\AntraAprilTrainning\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+D:\AntraAprilTrainning\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
