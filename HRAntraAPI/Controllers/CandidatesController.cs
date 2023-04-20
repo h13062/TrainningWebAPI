@@ -44,6 +44,17 @@ namespace HRAntraAPI.Controllers
             }
             return BadRequest();
         }
+        [HttpDelete]
+        [Route("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await candidatesService.DeleteCandidateAsync(id);
+            if (result != 0)
+            {
+                return Ok("Baby Deleted Successfully");
+            }
+            return BadRequest();
+        }
 
     }
 }

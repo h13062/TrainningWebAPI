@@ -41,12 +41,36 @@ namespace Infrastructure.Services
 
         public async Task<IEnumerable<EmployeeTypeResponseModel>> GetAllEmployeeTypes()
         {
-            throw new NotImplementedException();
+            var collection = await employeeTypeRepository.GetAllAsync();
+            if (collection != null)
+            {
+                List<EmployeeTypeResponseModel> result = new List<EmployeeTypeResponseModel>();
+                foreach (var item in collection)
+                {
+                    EmployeeTypeResponseModel model = new EmployeeTypeResponseModel();
+                    model.Id = item.Id;
+                    model.TypeName = item.TypeName;
+                    model.TypeName = item.TypeName;
+                    result.Add(model);
+                }
+                return result;
+            }
+            return null;
         }
 
         public async Task<EmployeeTypeResponseModel> GetEmployeeTypeByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var collection = await employeeTypeRepository.GetByIdAsync(id);
+            if (collection != null)
+            {
+
+                EmployeeTypeResponseModel model = new EmployeeTypeResponseModel();
+                model.Id = collection.Id;
+                model.TypeName = collection.TypeName;
+                model.TypeName = collection.TypeName;
+                return model;
+            }
+            return null;
         }
 
         public async Task<int> UpdateEmployeeTypeAsync(EmployeeTypeRequestModel model)
